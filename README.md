@@ -1,12 +1,10 @@
 <img src="https://i.ibb.co/N94YJkq/aaron-loeb-2.png">
 
-<h4 align="center">Em andamento ... 🚧</p>
+<h4 align="center">EM ANDAMENTO ... 🚧</p>
 
 <p align="center">
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tgmarinho/nlw1?color=%2304D361">
-
- 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/nlw1">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/nlw1">
 
  
 <a href="https://www.twitter.com/tgmarinho/">
@@ -17,14 +15,14 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/nlw1">
 </a>
 
- <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+<img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 <a href="https://github.com/tgmarinho/nlw1/stargazers">
 <img alt="Stargazers" src="https://img.shields.io/github/stars/tgmarinho/nlw1?style=social">
 </a>
 </p>
 
 
-SOBRE O PROJETO:
+## 💻 SOBRE O PROJETO:
 
 O PERGUTEX.COM  é um website de entretenimento que cativa pessoas de todas as idades. O portal conta com uma imensa lista de perguntas e respostas online para se divertir e passar o tempo. No site, é possível encontrar também uma área voltada para educação, com perguntas de vestibulares para auxiliar os estudos e explicações de diferentes disciplinas do ensino médio, entre elas: biologia, história, geografia, matemática, português, literatura e redação.E praticando o raciocínio lógico, tanto em crianças, como em adultos, cria a capacidade de maior senso crítico. Ou seja, através dele, as pessoas conseguem desenvolver ideias e resolver tarefas que exigem um pensamento mais focado para as respectivas resoluções.
 
@@ -38,7 +36,9 @@ O PERGUTEX.COM  é um website de entretenimento que cativa pessoas de todas as i
 </a>
 
 
-### Mobile
+### WEB
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://i.ibb.co/yFBrRKF/pgt-2.png"width="700px">
 
 
 
@@ -53,26 +53,38 @@ O PERGUTEX.COM  é um website de entretenimento que cativa pessoas de todas as i
 
 
 ## 🛠 Tecnologias
-[11:00] Noemy Ferreira Martins
+-[body-parser]
+-[dotenv]
+-[ejs]
+-[express]
+-[mysql2]
+-[sequelize]
+-[devDependencies]
+-[nodemon]
 
+## 🚀 Como executar o projeto
 
+git clone [https://github.com/NicoleS-Vitor/projetoqea.git)
 
+Entre no diretório do projeto
+cd projetoqea
 
-  "body-parser": "^1.20.1",
+Instale as dependências
+npm install
 
-    "dotenv": "^16.0.3",
+Configurando seu banco de dados
+Para configurar seu banco de dados, você deva acessar o arquivo .env
 
-    "ejs": "^3.1.8",
+DB_NAME = "projeto"
+USER = "root"
+PASSWORD = "senac2023"
+HOST = "localhost"
+PORT = "3307"
 
-    "express": "^4.18.2",
-
-    "mysql2": "^3.1.2",
-
-    "sequelize": "^6.28.0"
-
-    "devDependencies": {
-
-    "nodemon": "^2.0.20"
+ Inicie o projeto
+ 
+ 
+npm rum dev
 
 
 
